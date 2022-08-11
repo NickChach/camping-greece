@@ -1,0 +1,49 @@
+{
+  "name": "camping-greece",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest --watch",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickChach/camping-greece.git"
+  },
+  "author": "Nick Chachlioutis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NickChach/camping-greece/issues"
+  },
+  "homepage": "https://github.com/NickChach/camping-greece#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "eslint": "^8.21.0",
+    "express": "^4.18.1",
+    "jest": "^28.1.3",
+    "mongoose": "^6.5.2"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 2018
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "env": {
+      "node": true,
+      "es6": true,
+      "jest": true
+    },
+    "rules": {
+      "semi": "warn",
+      "quotes": [
+        "warn",
+        "double"
+      ],
+      "eqeqeq": "warn"
+    }
+  }
+}
